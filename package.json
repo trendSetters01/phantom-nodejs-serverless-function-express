@@ -1,10 +1,15 @@
 {
-  "repository": "https://github.com/vercel/examples.git",
+  "repository": "https://github.com/trendSetters01/phantom-nodejs-serverless-function-express",
   "license": "MIT",
   "private": true,
   "devDependencies": {
     "@types/node": "^17.0.42",
     "@vercel/node": "^2.9.6",
     "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "sequelize": "^6.35.1",
+    "sqlite3": "^5.1.6"
   }
 }
